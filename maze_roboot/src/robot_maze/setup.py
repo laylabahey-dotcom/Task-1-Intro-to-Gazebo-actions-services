@@ -24,9 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'movement_x_server = robot_maze.movement_x_action_server.main:',
-            'movement_yaw_server = robot_maze.movement_yaw_action_server.main:',
-            'maze_solver = robot_maze.maze_solver.main:',
+           'movement_x_server = robot_maze.movement_x_action_server:main'
         ],
     },
 )
