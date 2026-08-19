@@ -10,7 +10,7 @@ from std_srvs.srv import SetBool
 from maze_solver.action import MoveRobotX, MoveRobotYaw
 
 HALF_PI = math.pi / 2.0  # 90 degrees
-WALL_SETTLE_S = 6.0      # VM physics is slow; walls need more than 2s to clear
+WALL_SETTLE_S = 6.0 
 
 
 class MazeClient(Node):
