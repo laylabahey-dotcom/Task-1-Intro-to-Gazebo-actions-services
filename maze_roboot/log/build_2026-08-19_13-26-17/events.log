@@ -1,0 +1,494 @@
+[0.000000] (-) TimerEvent: {}
+[0.000633] (-) JobUnselected: {'identifier': 'robot_maze'}
+[0.000922] (maze_interfaces) JobQueued: {'identifier': 'maze_interfaces', 'dependencies': OrderedDict()}
+[0.001705] (maze_interfaces) JobStarted: {'identifier': 'maze_interfaces'}
+[0.024767] (maze_interfaces) JobProgress: {'identifier': 'maze_interfaces', 'progress': 'cmake'}
+[0.025797] (maze_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/src/maze_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces'], 'cwd': '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/maze_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'julian', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/julian', 'OLDPWD': '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/src/maze_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2179', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2401', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f01d8ada799b2b34cce5af8a6a857b6e', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/julian/training_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'julian', 'JOURNAL_STREAM': '10:21599', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'julian', 'STM32_PRG_PATH': '/home/julian/STMicroelectronics/STM32Cube/STM32CubeProgrammer/binsource', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/julian-Lenovo-ideapad-330-15IKB:@/tmp/.ICE-unix/2401,unix/julian-Lenovo-ideapad-330-15IKB:/tmp/.ICE-unix/2401', 'INVOCATION_ID': '02900e2678db4d13acf2d02f87c5eb3c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TILIX_ID': '49787d75-9e64-4ba7-a4d8-ef4582575b34', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CQPFU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/julian/training_ws/install/maze_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/maze_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f01d8ada799b2b34cce5af8a6a857b6e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/julian/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/julian/training_ws/install/maze_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/julian/training_ws/install/maze_control:/opt/ros/jazzy'}), 'shell': False}
+[0.100149] (-) TimerEvent: {}
+[0.200528] (-) TimerEvent: {}
+[0.301089] (-) TimerEvent: {}
+[0.370261] (maze_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.401245] (-) TimerEvent: {}
+[0.501674] (-) TimerEvent: {}
+[0.602058] (-) TimerEvent: {}
+[0.636099] (maze_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.678331] (maze_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.702274] (-) TimerEvent: {}
+[0.802649] (-) TimerEvent: {}
+[0.874990] (maze_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.896093] (maze_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.902712] (-) TimerEvent: {}
+[0.908310] (maze_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.909569] (maze_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.930712] (maze_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.002838] (-) TimerEvent: {}
+[1.103201] (-) TimerEvent: {}
+[1.125100] (maze_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.145685] (maze_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.146287] (maze_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.147300] (maze_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.164606] (maze_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.203365] (-) TimerEvent: {}
+[1.303753] (-) TimerEvent: {}
+[1.404115] (-) TimerEvent: {}
+[1.489654] (maze_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.504253] (-) TimerEvent: {}
+[1.604542] (-) TimerEvent: {}
+[1.704917] (-) TimerEvent: {}
+[1.802369] (maze_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.805049] (-) TimerEvent: {}
+[1.905355] (-) TimerEvent: {}
+[2.005741] (-) TimerEvent: {}
+[2.056459] (maze_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.083483] (maze_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.105908] (-) TimerEvent: {}
+[2.206271] (-) TimerEvent: {}
+[2.286167] (maze_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.306409] (-) TimerEvent: {}
+[2.406862] (-) TimerEvent: {}
+[2.476105] (maze_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.494051] (maze_interfaces) StdoutLine: {'line': b'-- Found action_msgs: 2.0.4 (/opt/ros/jazzy/share/action_msgs/cmake)\n'}
+[2.507020] (-) TimerEvent: {}
+[2.607379] (-) TimerEvent: {}
+[2.707672] (-) TimerEvent: {}
+[2.808022] (-) TimerEvent: {}
+[2.908367] (-) TimerEvent: {}
+[3.008661] (-) TimerEvent: {}
+[3.109001] (-) TimerEvent: {}
+[3.209338] (-) TimerEvent: {}
+[3.309699] (-) TimerEvent: {}
+[3.410073] (-) TimerEvent: {}
+[3.510429] (-) TimerEvent: {}
+[3.610753] (-) TimerEvent: {}
+[3.711093] (-) TimerEvent: {}
+[3.749475] (maze_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.811259] (-) TimerEvent: {}
+[3.911606] (-) TimerEvent: {}
+[4.011949] (-) TimerEvent: {}
+[4.112286] (-) TimerEvent: {}
+[4.212631] (-) TimerEvent: {}
+[4.312968] (-) TimerEvent: {}
+[4.413313] (-) TimerEvent: {}
+[4.513662] (-) TimerEvent: {}
+[4.614001] (-) TimerEvent: {}
+[4.635948] (maze_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.714125] (-) TimerEvent: {}
+[4.814530] (-) TimerEvent: {}
+[4.914994] (-) TimerEvent: {}
+[5.015335] (-) TimerEvent: {}
+[5.115695] (-) TimerEvent: {}
+[5.216066] (-) TimerEvent: {}
+[5.316402] (-) TimerEvent: {}
+[5.416775] (-) TimerEvent: {}
+[5.517184] (-) TimerEvent: {}
+[5.617574] (-) TimerEvent: {}
+[5.717888] (-) TimerEvent: {}
+[5.818212] (-) TimerEvent: {}
+[5.864300] (maze_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.875307] (maze_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[5.918376] (-) TimerEvent: {}
+[6.018661] (-) TimerEvent: {}
+[6.119014] (-) TimerEvent: {}
+[6.154466] (maze_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[6.219175] (-) TimerEvent: {}
+[6.319508] (-) TimerEvent: {}
+[6.419954] (-) TimerEvent: {}
+[6.520282] (-) TimerEvent: {}
+[6.620668] (-) TimerEvent: {}
+[6.721028] (-) TimerEvent: {}
+[6.821348] (-) TimerEvent: {}
+[6.921723] (-) TimerEvent: {}
+[7.022081] (-) TimerEvent: {}
+[7.122440] (-) TimerEvent: {}
+[7.207828] (maze_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[7.222585] (-) TimerEvent: {}
+[7.322975] (-) TimerEvent: {}
+[7.352461] (maze_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[7.368792] (maze_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.373562] (maze_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.394662] (maze_interfaces) StdoutLine: {'line': b'-- Configuring done (7.3s)\n'}
+[7.423121] (-) TimerEvent: {}
+[7.483204] (maze_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[7.513853] (maze_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/maze_interfaces\n'}
+[7.523283] (-) TimerEvent: {}
+[7.531956] (maze_interfaces) CommandEnded: {'returncode': 0}
+[7.532930] (maze_interfaces) JobProgress: {'identifier': 'maze_interfaces', 'progress': 'build'}
+[7.534391] (maze_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/maze_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/maze_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'julian', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/julian', 'OLDPWD': '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/src/maze_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2179', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2401', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f01d8ada799b2b34cce5af8a6a857b6e', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/julian/training_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'julian', 'JOURNAL_STREAM': '10:21599', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'julian', 'STM32_PRG_PATH': '/home/julian/STMicroelectronics/STM32Cube/STM32CubeProgrammer/binsource', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/julian-Lenovo-ideapad-330-15IKB:@/tmp/.ICE-unix/2401,unix/julian-Lenovo-ideapad-330-15IKB:/tmp/.ICE-unix/2401', 'INVOCATION_ID': '02900e2678db4d13acf2d02f87c5eb3c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TILIX_ID': '49787d75-9e64-4ba7-a4d8-ef4582575b34', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CQPFU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/julian/training_ws/install/maze_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/maze_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f01d8ada799b2b34cce5af8a6a857b6e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/julian/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/julian/training_ws/install/maze_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/julian/training_ws/install/maze_control:/opt/ros/jazzy'}), 'shell': False}
+[7.623437] (-) TimerEvent: {}
+[7.634714] (maze_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[7.635183] (maze_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[7.652043] (maze_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_maze_interfaces\n'}
+[7.723601] (-) TimerEvent: {}
+[7.823956] (-) TimerEvent: {}
+[7.924327] (-) TimerEvent: {}
+[8.024710] (-) TimerEvent: {}
+[8.123749] (maze_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[8.124805] (-) TimerEvent: {}
+[8.125560] (maze_interfaces) StdoutLine: {'line': b'creating maze_interfaces.egg-info\n'}
+[8.172021] (maze_interfaces) StdoutLine: {'line': b'writing maze_interfaces.egg-info/PKG-INFO\n'}
+[8.172576] (maze_interfaces) StdoutLine: {'line': b'writing dependency_links to maze_interfaces.egg-info/dependency_links.txt\n'}
+[8.172991] (maze_interfaces) StdoutLine: {'line': b'writing top-level names to maze_interfaces.egg-info/top_level.txt\n'}
+[8.173409] (maze_interfaces) StdoutLine: {'line': b"writing manifest file 'maze_interfaces.egg-info/SOURCES.txt'\n"}
+[8.173826] (maze_interfaces) StdoutLine: {'line': b'[  4%] Built target maze_interfaces__rosidl_generator_type_description\n'}
+[8.194801] (maze_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.215700] (maze_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.224931] (-) TimerEvent: {}
+[8.285916] (maze_interfaces) StdoutLine: {'line': b'[  8%] Built target maze_interfaces__rs\n'}
+[8.325058] (-) TimerEvent: {}
+[8.348475] (maze_interfaces) StdoutLine: {'line': b"reading manifest file 'maze_interfaces.egg-info/SOURCES.txt'\n"}
+[8.350857] (maze_interfaces) StdoutLine: {'line': b"writing manifest file 'maze_interfaces.egg-info/SOURCES.txt'\n"}
+[8.405882] (maze_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_maze_interfaces_egg\n'}
+[8.425166] (-) TimerEvent: {}
+[8.525526] (-) TimerEvent: {}
+[8.625959] (-) TimerEvent: {}
+[8.726328] (-) TimerEvent: {}
+[8.826670] (-) TimerEvent: {}
+[8.926994] (-) TimerEvent: {}
+[9.027320] (-) TimerEvent: {}
+[9.127612] (-) TimerEvent: {}
+[9.227956] (-) TimerEvent: {}
+[9.328260] (-) TimerEvent: {}
+[9.428579] (-) TimerEvent: {}
+[9.528949] (-) TimerEvent: {}
+[9.629230] (-) TimerEvent: {}
+[9.704464] (maze_interfaces) StdoutLine: {'line': b'[  8%] Built target maze_interfaces__cpp\n'}
+[9.729376] (-) TimerEvent: {}
+[9.829783] (-) TimerEvent: {}
+[9.885442] (maze_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_c.dir/rosidl_generator_c/maze_interfaces/action/detail/movement_x__functions.c.o\x1b[0m\n'}
+[9.885938] (maze_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_c.dir/rosidl_generator_c/maze_interfaces/action/detail/movement_yaw__description.c.o\x1b[0m\n'}
+[9.891512] (maze_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_c.dir/rosidl_generator_c/maze_interfaces/action/detail/movement_x__type_support.c.o\x1b[0m\n'}
+[9.893110] (maze_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_c.dir/rosidl_generator_c/maze_interfaces/action/detail/movement_x__description.c.o\x1b[0m\n'}
+[9.893482] (maze_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_c.dir/rosidl_generator_c/maze_interfaces/action/detail/movement_yaw__functions.c.o\x1b[0m\n'}
+[9.893923] (maze_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_c.dir/rosidl_generator_c/maze_interfaces/action/detail/movement_yaw__type_support.c.o\x1b[0m\n'}
+[9.929926] (-) TimerEvent: {}
+[10.030381] (-) TimerEvent: {}
+[10.130674] (-) TimerEvent: {}
+[10.231031] (-) TimerEvent: {}
+[10.317752] (maze_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libmaze_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[10.331200] (-) TimerEvent: {}
+[10.407450] (maze_interfaces) StdoutLine: {'line': b'[ 24%] Built target maze_interfaces__rosidl_generator_c\n'}
+[10.431337] (-) TimerEvent: {}
+[10.432080] (maze_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[10.432525] (maze_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.434768] (maze_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.435938] (maze_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.436706] (maze_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.438436] (maze_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.531528] (-) TimerEvent: {}
+[10.632216] (-) TimerEvent: {}
+[10.732605] (-) TimerEvent: {}
+[10.833389] (-) TimerEvent: {}
+[10.934225] (-) TimerEvent: {}
+[11.034736] (-) TimerEvent: {}
+[11.135130] (-) TimerEvent: {}
+[11.235594] (-) TimerEvent: {}
+[11.335964] (-) TimerEvent: {}
+[11.436339] (-) TimerEvent: {}
+[11.530984] (maze_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/maze_interfaces/action/movement_x__type_support.cpp.o\x1b[0m\n'}
+[11.531381] (maze_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/maze_interfaces/action/movement_yaw__type_support.cpp.o\x1b[0m\n'}
+[11.536439] (-) TimerEvent: {}
+[11.637209] (-) TimerEvent: {}
+[11.740782] (-) TimerEvent: {}
+[11.807757] (maze_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/maze_interfaces/action/movement_yaw__type_support.cpp.o\x1b[0m\n'}
+[11.820686] (maze_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/maze_interfaces/action/movement_x__type_support.cpp.o\x1b[0m\n'}
+[11.840899] (-) TimerEvent: {}
+[11.966805] (-) TimerEvent: {}
+[12.067732] (maze_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmaze_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.070175] (-) TimerEvent: {}
+[12.171209] (-) TimerEvent: {}
+[12.238615] (maze_interfaces) StdoutLine: {'line': b'[ 48%] Built target maze_interfaces__rosidl_typesupport_c\n'}
+[12.270614] (maze_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/maze_interfaces/action/detail/movement_yaw__type_support.cpp.o\x1b[0m\n'}
+[12.271295] (-) TimerEvent: {}
+[12.274707] (maze_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/maze_interfaces/action/detail/movement_x__type_support.cpp.o\x1b[0m\n'}
+[12.293052] (maze_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/maze_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/maze_interfaces/action/detail/movement_x__type_support.c.o\x1b[0m\n'}
+[12.301004] (maze_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/maze_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/maze_interfaces/action/detail/movement_yaw__type_support.c.o\x1b[0m\n'}
+[12.371634] (-) TimerEvent: {}
+[12.474838] (-) TimerEvent: {}
+[12.575255] (-) TimerEvent: {}
+[12.586745] (maze_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libmaze_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.675371] (-) TimerEvent: {}
+[12.687473] (maze_interfaces) StdoutLine: {'line': b'[ 60%] Built target maze_interfaces__rosidl_typesupport_introspection_c\n'}
+[12.775507] (-) TimerEvent: {}
+[12.875913] (-) TimerEvent: {}
+[12.976290] (-) TimerEvent: {}
+[13.076706] (-) TimerEvent: {}
+[13.177203] (-) TimerEvent: {}
+[13.273170] (maze_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/maze_interfaces/action/detail/movement_x__type_support_c.cpp.o\x1b[0m\n'}
+[13.273773] (maze_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/maze_interfaces/action/detail/movement_yaw__type_support_c.cpp.o\x1b[0m\n'}
+[13.278637] (-) TimerEvent: {}
+[13.379092] (-) TimerEvent: {}
+[13.479544] (-) TimerEvent: {}
+[13.486370] (maze_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/maze_interfaces/action/detail/dds_fastrtps/movement_x__type_support.cpp.o\x1b[0m\n'}
+[13.494604] (maze_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/maze_interfaces/action/detail/dds_fastrtps/movement_yaw__type_support.cpp.o\x1b[0m\n'}
+[13.579652] (-) TimerEvent: {}
+[13.680174] (-) TimerEvent: {}
+[13.780627] (-) TimerEvent: {}
+[13.881635] (-) TimerEvent: {}
+[13.982049] (-) TimerEvent: {}
+[14.047894] (maze_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmaze_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.082181] (-) TimerEvent: {}
+[14.182614] (-) TimerEvent: {}
+[14.222784] (maze_interfaces) StdoutLine: {'line': b'[ 71%] Built target maze_interfaces__rosidl_typesupport_cpp\n'}
+[14.283643] (-) TimerEvent: {}
+[14.384770] (-) TimerEvent: {}
+[14.485193] (-) TimerEvent: {}
+[14.585637] (-) TimerEvent: {}
+[14.666705] (maze_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libmaze_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.685784] (-) TimerEvent: {}
+[14.786230] (-) TimerEvent: {}
+[14.886656] (-) TimerEvent: {}
+[14.936382] (maze_interfaces) StdoutLine: {'line': b'[ 73%] Built target maze_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[14.986770] (-) TimerEvent: {}
+[15.062952] (maze_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libmaze_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.086908] (-) TimerEvent: {}
+[15.187281] (-) TimerEvent: {}
+[15.231461] (maze_interfaces) StdoutLine: {'line': b'[ 75%] Built target maze_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[15.287432] (-) TimerEvent: {}
+[15.387803] (-) TimerEvent: {}
+[15.488227] (-) TimerEvent: {}
+[15.588601] (-) TimerEvent: {}
+[15.689009] (-) TimerEvent: {}
+[15.789341] (-) TimerEvent: {}
+[15.889680] (-) TimerEvent: {}
+[15.990157] (-) TimerEvent: {}
+[16.090806] (-) TimerEvent: {}
+[16.175269] (maze_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libmaze_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[16.190948] (-) TimerEvent: {}
+[16.291265] (-) TimerEvent: {}
+[16.360889] (maze_interfaces) StdoutLine: {'line': b'[ 77%] Built target maze_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[16.391430] (-) TimerEvent: {}
+[16.402887] (maze_interfaces) StdoutLine: {'line': b'[ 77%] Built target maze_interfaces\n'}
+[16.447342] (maze_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[16.491589] (-) TimerEvent: {}
+[16.591915] (-) TimerEvent: {}
+[16.692275] (-) TimerEvent: {}
+[16.792648] (-) TimerEvent: {}
+[16.892964] (-) TimerEvent: {}
+[16.993339] (-) TimerEvent: {}
+[17.093760] (-) TimerEvent: {}
+[17.194101] (-) TimerEvent: {}
+[17.294447] (-) TimerEvent: {}
+[17.394798] (-) TimerEvent: {}
+[17.495138] (-) TimerEvent: {}
+[17.595481] (-) TimerEvent: {}
+[17.695838] (-) TimerEvent: {}
+[17.796175] (-) TimerEvent: {}
+[17.896510] (-) TimerEvent: {}
+[17.996859] (-) TimerEvent: {}
+[18.097203] (-) TimerEvent: {}
+[18.197532] (-) TimerEvent: {}
+[18.297885] (-) TimerEvent: {}
+[18.398255] (-) TimerEvent: {}
+[18.498603] (-) TimerEvent: {}
+[18.598940] (-) TimerEvent: {}
+[18.699281] (-) TimerEvent: {}
+[18.799624] (-) TimerEvent: {}
+[18.899960] (-) TimerEvent: {}
+[19.000301] (-) TimerEvent: {}
+[19.022825] (maze_interfaces) StdoutLine: {'line': b'[ 80%] Built target maze_interfaces__py\n'}
+[19.064520] (maze_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_py.dir/rosidl_generator_py/maze_interfaces/action/_movement_x_s.c.o\x1b[0m\n'}
+[19.064826] (maze_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_py.dir/rosidl_generator_py/maze_interfaces/action/_movement_yaw_s.c.o\x1b[0m\n'}
+[19.100453] (-) TimerEvent: {}
+[19.200824] (-) TimerEvent: {}
+[19.301263] (-) TimerEvent: {}
+[19.401646] (-) TimerEvent: {}
+[19.502025] (-) TimerEvent: {}
+[19.584276] (maze_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libmaze_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[19.602184] (-) TimerEvent: {}
+[19.681607] (maze_interfaces) StdoutLine: {'line': b'[ 86%] Built target maze_interfaces__rosidl_generator_py\n'}
+[19.702324] (-) TimerEvent: {}
+[19.723028] (maze_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/maze_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/maze_interfaces/_maze_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[19.723500] (maze_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/maze_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/maze_interfaces/_maze_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[19.723871] (maze_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/maze_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/maze_interfaces/_maze_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[19.802465] (-) TimerEvent: {}
+[19.902924] (-) TimerEvent: {}
+[20.003361] (-) TimerEvent: {}
+[20.053312] (maze_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/maze_interfaces/maze_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[20.060304] (maze_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/maze_interfaces/maze_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[20.070760] (maze_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/maze_interfaces/maze_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[20.103502] (-) TimerEvent: {}
+[20.121045] (maze_interfaces) StdoutLine: {'line': b'[100%] Built target maze_interfaces_s__rosidl_typesupport_c\n'}
+[20.131152] (maze_interfaces) StdoutLine: {'line': b'[100%] Built target maze_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[20.141126] (maze_interfaces) StdoutLine: {'line': b'[100%] Built target maze_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[20.163908] (maze_interfaces) CommandEnded: {'returncode': 0}
+[20.165032] (maze_interfaces) JobProgress: {'identifier': 'maze_interfaces', 'progress': 'install'}
+[20.182519] (maze_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/maze_interfaces'], 'cwd': '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/maze_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'julian', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/julian', 'OLDPWD': '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/src/maze_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2179', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2401', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f01d8ada799b2b34cce5af8a6a857b6e', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/julian/training_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'julian', 'JOURNAL_STREAM': '10:21599', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'julian', 'STM32_PRG_PATH': '/home/julian/STMicroelectronics/STM32Cube/STM32CubeProgrammer/binsource', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/julian-Lenovo-ideapad-330-15IKB:@/tmp/.ICE-unix/2401,unix/julian-Lenovo-ideapad-330-15IKB:/tmp/.ICE-unix/2401', 'INVOCATION_ID': '02900e2678db4d13acf2d02f87c5eb3c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TILIX_ID': '49787d75-9e64-4ba7-a4d8-ef4582575b34', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CQPFU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/julian/training_ws/install/maze_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/maze_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f01d8ada799b2b34cce5af8a6a857b6e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/julian/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/julian/training_ws/install/maze_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/julian/training_ws/install/maze_control:/opt/ros/jazzy'}), 'shell': False}
+[20.200513] (maze_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.200960] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/ament_index/resource_index/rosidl_interfaces/maze_interfaces\n'}
+[20.201355] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/action/MovementX.json\n'}
+[20.201657] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/action/MovementYaw.json\n'}
+[20.202014] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces\n'}
+[20.202249] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action\n'}
+[20.202479] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/movement_yaw.h\n'}
+[20.202712] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail\n'}
+[20.202924] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__functions.c\n'}
+[20.203077] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__description.c\n'}
+[20.203408] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__type_support.c\n'}
+[20.203618] (-) TimerEvent: {}
+[20.203757] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__functions.h\n'}
+[20.204001] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__functions.c\n'}
+[20.204168] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__functions.h\n'}
+[20.204375] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__struct.h\n'}
+[20.204575] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__description.c\n'}
+[20.204790] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__struct.h\n'}
+[20.205001] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__type_support.c\n'}
+[20.205188] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__type_support.h\n'}
+[20.205385] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__type_support.h\n'}
+[20.205592] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/movement_x.h\n'}
+[20.205778] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg\n'}
+[20.205985] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.206312] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/library_path.sh\n'}
+[20.206586] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/library_path.dsv\n'}
+[20.206939] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_generator_c.so\n'}
+[20.208273] (maze_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_generator_c.so" to ""\n'}
+[20.208680] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces\n'}
+[20.209031] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action\n'}
+[20.209208] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail\n'}
+[20.209374] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__rosidl_typesupport_fastrtps_c.h\n'}
+[20.209742] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__rosidl_typesupport_fastrtps_c.h\n'}
+[20.209990] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg\n'}
+[20.210154] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.210432] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[20.211292] (maze_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[20.211596] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces\n'}
+[20.211874] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action\n'}
+[20.212048] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail\n'}
+[20.212260] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__rosidl_typesupport_introspection_c.h\n'}
+[20.212469] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__type_support.c\n'}
+[20.213050] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__type_support.c\n'}
+[20.213514] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__rosidl_typesupport_introspection_c.h\n'}
+[20.213742] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg\n'}
+[20.214022] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.214236] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[20.214730] (maze_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[20.214997] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_c.so\n'}
+[20.215914] (maze_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[20.216239] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces\n'}
+[20.216613] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action\n'}
+[20.216814] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/movement_x.hpp\n'}
+[20.217115] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/movement_yaw.hpp\n'}
+[20.217459] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail\n'}
+[20.217656] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__type_support.hpp\n'}
+[20.217842] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__struct.hpp\n'}
+[20.218128] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__type_support.hpp\n'}
+[20.218417] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__builder.hpp\n'}
+[20.218710] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__builder.hpp\n'}
+[20.218874] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__traits.hpp\n'}
+[20.219090] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__traits.hpp\n'}
+[20.219298] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__struct.hpp\n'}
+[20.219461] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg\n'}
+[20.219699] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[20.219927] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces\n'}
+[20.220075] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action\n'}
+[20.220303] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail\n'}
+[20.220461] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.220662] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.220854] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/dds_fastrtps\n'}
+[20.220997] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg\n'}
+[20.221142] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.221321] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.222410] (maze_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[20.222732] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces\n'}
+[20.223110] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action\n'}
+[20.223347] (maze_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail\n'}
+[20.223516] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.223743] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.223897] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__type_support.cpp\n'}
+[20.224047] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__type_support.cpp\n'}
+[20.224244] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[20.225229] (maze_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[20.225593] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_cpp.so\n'}
+[20.226487] (maze_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[20.226860] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/pythonpath.sh\n'}
+[20.227082] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/pythonpath.dsv\n'}
+[20.227412] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces-0.0.0-py3.12.egg-info\n'}
+[20.227709] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[20.227889] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[20.228169] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[20.228435] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[20.228651] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces\n'}
+[20.228982] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action\n'}
+[20.229167] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/_movement_x.py\n'}
+[20.229529] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/_movement_yaw.py\n'}
+[20.229766] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/_movement_yaw_s.c\n'}
+[20.229925] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/__init__.py\n'}
+[20.230079] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/_movement_x_s.c\n'}
+[20.230325] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[20.230535] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[20.230751] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/_maze_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.230964] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/__init__.py\n'}
+[20.231151] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/_maze_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.231526] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_c.so\n'}
+[20.231892] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/_maze_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[20.303777] (-) TimerEvent: {}
+[20.351365] (maze_interfaces) StdoutLine: {'line': b"Listing '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces'...\n"}
+[20.351691] (maze_interfaces) StdoutLine: {'line': b"Compiling '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/__init__.py'...\n"}
+[20.351854] (maze_interfaces) StdoutLine: {'line': b"Listing '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action'...\n"}
+[20.351996] (maze_interfaces) StdoutLine: {'line': b"Compiling '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/__init__.py'...\n"}
+[20.352170] (maze_interfaces) StdoutLine: {'line': b"Compiling '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/_movement_x.py'...\n"}
+[20.352306] (maze_interfaces) StdoutLine: {'line': b"Compiling '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/_movement_yaw.py'...\n"}
+[20.362894] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[20.363748] (maze_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[20.364246] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[20.365064] (maze_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[20.365535] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_c.so\n'}
+[20.366377] (maze_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[20.366676] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_generator_py.so\n'}
+[20.367453] (maze_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_generator_py.so" to ""\n'}
+[20.367845] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/ament_index/resource_index/rust_packages/maze_interfaces\n'}
+[20.368236] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust\n'}
+[20.368423] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust/build.rs\n'}
+[20.368622] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust/src\n'}
+[20.368917] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust/src/action\n'}
+[20.369175] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust/src/action/rmw.rs\n'}
+[20.369368] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust/src/action.rs\n'}
+[20.369535] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust/src/lib.rs\n'}
+[20.369705] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust/Cargo.toml\n'}
+[20.370024] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/action/MovementX.idl\n'}
+[20.370354] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/action/MovementYaw.idl\n'}
+[20.370530] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/action/MovementX.action\n'}
+[20.370868] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/action/MovementYaw.action\n'}
+[20.371077] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/ament_index/resource_index/package_run_dependencies/maze_interfaces\n'}
+[20.371287] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/ament_index/resource_index/parent_prefix_path/maze_interfaces\n'}
+[20.371444] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/ament_prefix_path.sh\n'}
+[20.371632] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/ament_prefix_path.dsv\n'}
+[20.371828] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/path.sh\n'}
+[20.372080] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/path.dsv\n'}
+[20.372318] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/local_setup.bash\n'}
+[20.372602] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/local_setup.sh\n'}
+[20.372941] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/local_setup.zsh\n'}
+[20.373308] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/local_setup.dsv\n'}
+[20.373647] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/package.dsv\n'}
+[20.373935] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/ament_index/resource_index/packages/maze_interfaces\n'}
+[20.374196] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_generator_cExport.cmake\n'}
+[20.374402] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.374694] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[20.375033] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[20.375394] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.375769] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.376034] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[20.376327] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.376700] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_generator_cppExport.cmake\n'}
+[20.377058] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[20.377353] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[20.377582] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.377815] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.378116] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[20.378403] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.378782] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_generator_pyExport.cmake\n'}
+[20.379056] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[20.379336] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[20.379622] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.379932] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.380209] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.380463] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.380731] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.380994] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.381261] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[20.381521] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfacesConfig.cmake\n'}
+[20.381811] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfacesConfig-version.cmake\n'}
+[20.382083] (maze_interfaces) StdoutLine: {'line': b'-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/package.xml\n'}
+[20.386003] (maze_interfaces) CommandEnded: {'returncode': 0}
+[20.404025] (-) TimerEvent: {}
+[20.446151] (maze_interfaces) JobEnded: {'identifier': 'maze_interfaces', 'rc': 0}
+[20.447407] (-) EventReactorShutdown: {}

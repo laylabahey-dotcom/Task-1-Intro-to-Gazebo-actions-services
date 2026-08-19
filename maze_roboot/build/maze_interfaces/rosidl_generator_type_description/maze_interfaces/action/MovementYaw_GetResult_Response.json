@@ -1,0 +1,76 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "maze_interfaces/action/MovementYaw_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "maze_interfaces/action/MovementYaw_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "maze_interfaces/action/MovementYaw_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "message",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "final_yaw_traveled",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "maze_interfaces/action/MovementYaw_GetResult_Response",
+      "hash_string": "RIHS01_0c8a7c45c804be5a46c6e6a15e0bc37af82c0985b36de9e0d98f5f0003f2fc0c"
+    },
+    {
+      "type_name": "maze_interfaces/action/MovementYaw_Result",
+      "hash_string": "RIHS01_2539f2c2774fc5d89a3d38f199a475aa057caf8edfec304fe3d508e1a7bb8358"
+    }
+  ]
+}

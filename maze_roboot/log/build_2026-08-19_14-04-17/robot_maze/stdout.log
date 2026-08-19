@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/robot_maze/robot_maze.egg-info
+writing ../../build/robot_maze/robot_maze.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_maze/robot_maze.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_maze/robot_maze.egg-info/entry_points.txt
+writing requirements to ../../build/robot_maze/robot_maze.egg-info/requires.txt
+writing top-level names to ../../build/robot_maze/robot_maze.egg-info/top_level.txt
+writing manifest file '../../build/robot_maze/robot_maze.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_maze/robot_maze.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_maze/robot_maze.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build
+creating /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib
+creating /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze
+copying robot_maze/__init__.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze
+copying robot_maze/solve_maze_client.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze
+copying robot_maze/movement_yaw_action_server.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze
+copying robot_maze/movement_x_action_server.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze
+running install
+running install_lib
+creating /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze
+copying /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze/__init__.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze
+copying /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze/solve_maze_client.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze
+copying /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze/movement_yaw_action_server.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze
+copying /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze/movement_x_action_server.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze
+byte-compiling /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze/solve_maze_client.py to solve_maze_client.cpython-312.pyc
+byte-compiling /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze/movement_yaw_action_server.py to movement_yaw_action_server.cpython-312.pyc
+byte-compiling /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze/movement_x_action_server.py to movement_x_action_server.cpython-312.pyc
+running install_data
+creating /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/share/ament_index
+creating /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/share/ament_index/resource_index
+creating /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/share/ament_index/resource_index/packages
+copying resource/robot_maze -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/share/ament_index/resource_index/packages
+copying package.xml -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/share/robot_maze
+running install_egg_info
+Copying ../../build/robot_maze/robot_maze.egg-info to /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze-0.0.0-py3.12.egg-info
+running install_scripts
+Installing movement_x_server script to /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/robot_maze
+writing list of installed files to '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/install.log'

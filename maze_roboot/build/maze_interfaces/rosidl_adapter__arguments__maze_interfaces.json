@@ -1,0 +1,7 @@
+{
+  "package_name": "maze_interfaces",
+  "non_idl_tuples": [
+    "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/src/maze_interfaces:action/MovementX.action",
+    "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/src/maze_interfaces:action/MovementYaw.action"
+  ]
+}

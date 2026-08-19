@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "maze_interfaces/action/MovementX_Feedback",
+      "fields": [
+        {
+          "name": "distance_traveled",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "distance_remaining",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "maze_interfaces/action/MovementX_Feedback",
+      "hash_string": "RIHS01_e50c02d9284d8a11cb8a6c94c1ffaf182edbe1dd48925207cd2a5a480b2827a5"
+    }
+  ]
+}

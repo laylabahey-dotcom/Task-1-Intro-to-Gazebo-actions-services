@@ -1,0 +1,12 @@
+# Goal
+float32 target_yaw
+float32 angular_speed
+---
+# Result
+bool success
+string message
+float32 final_yaw_traveled
+---
+# Feedback
+float32 yaw_traveled
+float32 yaw_remaining

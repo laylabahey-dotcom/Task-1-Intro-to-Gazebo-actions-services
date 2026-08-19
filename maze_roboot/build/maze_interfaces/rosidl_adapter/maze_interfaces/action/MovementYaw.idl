@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from maze_interfaces/action/MovementYaw.action
+// generated code does not contain a copyright notice
+
+
+module maze_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct MovementYaw_Goal {
+      float target_yaw;
+
+      float angular_speed;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct MovementYaw_Result {
+      boolean success;
+
+      string message;
+
+      float final_yaw_traveled;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct MovementYaw_Feedback {
+      float yaw_traveled;
+
+      float yaw_remaining;
+    };
+  };
+};

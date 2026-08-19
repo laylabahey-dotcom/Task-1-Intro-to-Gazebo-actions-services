@@ -1,0 +1,2 @@
+[console_scripts]
+movement_x_server = robot_maze.movement_x_action_server:main

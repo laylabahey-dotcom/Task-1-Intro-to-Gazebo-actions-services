@@ -1,0 +1,276 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found action_msgs: 2.0.4 (/opt/ros/jazzy/share/action_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (7.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/maze_interfaces
+[  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  4%] Built target ament_cmake_python_copy_maze_interfaces
+running egg_info
+creating maze_interfaces.egg-info
+writing maze_interfaces.egg-info/PKG-INFO
+writing dependency_links to maze_interfaces.egg-info/dependency_links.txt
+writing top-level names to maze_interfaces.egg-info/top_level.txt
+writing manifest file 'maze_interfaces.egg-info/SOURCES.txt'
+[  4%] Built target maze_interfaces__rosidl_generator_type_description
+[  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  8%] Built target maze_interfaces__rs
+reading manifest file 'maze_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'maze_interfaces.egg-info/SOURCES.txt'
+[  8%] Built target ament_cmake_python_build_maze_interfaces_egg
+[  8%] Built target maze_interfaces__cpp
+[ 13%] [32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_c.dir/rosidl_generator_c/maze_interfaces/action/detail/movement_x__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_c.dir/rosidl_generator_c/maze_interfaces/action/detail/movement_yaw__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_c.dir/rosidl_generator_c/maze_interfaces/action/detail/movement_x__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_c.dir/rosidl_generator_c/maze_interfaces/action/detail/movement_x__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_c.dir/rosidl_generator_c/maze_interfaces/action/detail/movement_yaw__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_c.dir/rosidl_generator_c/maze_interfaces/action/detail/movement_yaw__type_support.c.o[0m
+[ 24%] [32m[1mLinking C shared library libmaze_interfaces__rosidl_generator_c.so[0m
+[ 24%] Built target maze_interfaces__rosidl_generator_c
+[ 26%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 33%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 37%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/maze_interfaces/action/movement_x__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/maze_interfaces/action/movement_yaw__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/maze_interfaces/action/movement_yaw__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/maze_interfaces/action/movement_x__type_support.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libmaze_interfaces__rosidl_typesupport_c.so[0m
+[ 48%] Built target maze_interfaces__rosidl_typesupport_c
+[ 51%] [32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/maze_interfaces/action/detail/movement_yaw__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/maze_interfaces/action/detail/movement_x__type_support.cpp.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/maze_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/maze_interfaces/action/detail/movement_x__type_support.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/maze_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/maze_interfaces/action/detail/movement_yaw__type_support.c.o[0m
+[ 60%] [32m[1mLinking C shared library libmaze_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 60%] Built target maze_interfaces__rosidl_typesupport_introspection_c
+[ 64%] [32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/maze_interfaces/action/detail/movement_x__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/maze_interfaces/action/detail/movement_yaw__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/maze_interfaces/action/detail/dds_fastrtps/movement_x__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/maze_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/maze_interfaces/action/detail/dds_fastrtps/movement_yaw__type_support.cpp.o[0m
+[ 71%] [32m[1mLinking CXX shared library libmaze_interfaces__rosidl_typesupport_cpp.so[0m
+[ 71%] Built target maze_interfaces__rosidl_typesupport_cpp
+[ 73%] [32m[1mLinking CXX shared library libmaze_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 73%] Built target maze_interfaces__rosidl_typesupport_introspection_cpp
+[ 75%] [32m[1mLinking CXX shared library libmaze_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 75%] Built target maze_interfaces__rosidl_typesupport_fastrtps_c
+[ 77%] [32m[1mLinking CXX shared library libmaze_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 77%] Built target maze_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 77%] Built target maze_interfaces
+[ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 80%] Built target maze_interfaces__py
+[ 84%] [32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_py.dir/rosidl_generator_py/maze_interfaces/action/_movement_x_s.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/maze_interfaces__rosidl_generator_py.dir/rosidl_generator_py/maze_interfaces/action/_movement_yaw_s.c.o[0m
+[ 86%] [32m[1mLinking C shared library libmaze_interfaces__rosidl_generator_py.so[0m
+[ 86%] Built target maze_interfaces__rosidl_generator_py
+[ 93%] [32mBuilding C object CMakeFiles/maze_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/maze_interfaces/_maze_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/maze_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/maze_interfaces/_maze_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/maze_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/maze_interfaces/_maze_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 95%] [32m[1mLinking C shared module rosidl_generator_py/maze_interfaces/maze_interfaces_s__rosidl_typesupport_c.so[0m
+[ 97%] [32m[1mLinking C shared module rosidl_generator_py/maze_interfaces/maze_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/maze_interfaces/maze_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] Built target maze_interfaces_s__rosidl_typesupport_c
+[100%] Built target maze_interfaces_s__rosidl_typesupport_introspection_c
+[100%] Built target maze_interfaces_s__rosidl_typesupport_fastrtps_c
+-- Install configuration: ""
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/ament_index/resource_index/rosidl_interfaces/maze_interfaces
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/action/MovementX.json
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/action/MovementYaw.json
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/movement_yaw.h
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__functions.c
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__description.c
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__type_support.c
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__functions.h
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__functions.c
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__functions.h
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__struct.h
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__description.c
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__struct.h
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__type_support.c
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__type_support.h
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__type_support.h
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/movement_x.h
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/library_path.sh
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/library_path.dsv
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__rosidl_typesupport_introspection_c.h
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__type_support.c
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__type_support.c
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/movement_x.hpp
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/movement_yaw.hpp
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__type_support.hpp
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__struct.hpp
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__type_support.hpp
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__builder.hpp
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__builder.hpp
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__traits.hpp
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__traits.hpp
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__struct.hpp
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/dds_fastrtps
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action
+-- Up-to-date: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_x__type_support.cpp
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/include/maze_interfaces/maze_interfaces/action/detail/movement_yaw__type_support.cpp
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/pythonpath.sh
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/pythonpath.dsv
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces-0.0.0-py3.12.egg-info
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/_movement_x.py
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/_movement_yaw.py
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/_movement_yaw_s.c
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/__init__.py
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/_movement_x_s.c
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/_maze_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/__init__.py
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/_maze_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_c.so
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/_maze_interfaces_s.ep.rosidl_typesupport_c.c
+Listing '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces'...
+Compiling '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/__init__.py'...
+Listing '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action'...
+Compiling '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/__init__.py'...
+Compiling '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/_movement_x.py'...
+Compiling '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/action/_movement_yaw.py'...
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages/maze_interfaces/maze_interfaces_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/libmaze_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/ament_index/resource_index/rust_packages/maze_interfaces
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust/build.rs
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust/src
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust/src/action
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust/src/action/rmw.rs
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust/src/action.rs
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust/src/lib.rs
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/rust/Cargo.toml
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/action/MovementX.idl
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/action/MovementYaw.idl
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/action/MovementX.action
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/action/MovementYaw.action
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/ament_index/resource_index/package_run_dependencies/maze_interfaces
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/ament_index/resource_index/parent_prefix_path/maze_interfaces
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/path.sh
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/environment/path.dsv
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/local_setup.bash
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/local_setup.sh
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/local_setup.zsh
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/local_setup.dsv
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/package.dsv
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/ament_index/resource_index/packages/maze_interfaces
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/export_maze_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfacesConfig.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/cmake/maze_interfacesConfig-version.cmake
+-- Installing: /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/share/maze_interfaces/package.xml

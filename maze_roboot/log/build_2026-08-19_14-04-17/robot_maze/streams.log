@@ -1,0 +1,43 @@
+[2.404s] Invoking command in '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/src/robot_maze': AMENT_PREFIX_PATH=/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages:/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_maze build --build-base /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build install --record /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/install.log --install-scripts $base/lib/robot_maze --single-version-externally-managed install_data
+[3.121s] running egg_info
+[3.122s] creating ../../build/robot_maze/robot_maze.egg-info
+[3.177s] writing ../../build/robot_maze/robot_maze.egg-info/PKG-INFO
+[3.177s] writing dependency_links to ../../build/robot_maze/robot_maze.egg-info/dependency_links.txt
+[3.178s] writing entry points to ../../build/robot_maze/robot_maze.egg-info/entry_points.txt
+[3.178s] writing requirements to ../../build/robot_maze/robot_maze.egg-info/requires.txt
+[3.179s] writing top-level names to ../../build/robot_maze/robot_maze.egg-info/top_level.txt
+[3.179s] writing manifest file '../../build/robot_maze/robot_maze.egg-info/SOURCES.txt'
+[3.312s] reading manifest file '../../build/robot_maze/robot_maze.egg-info/SOURCES.txt'
+[3.314s] writing manifest file '../../build/robot_maze/robot_maze.egg-info/SOURCES.txt'
+[3.314s] running build
+[3.314s] running build_py
+[3.315s] creating /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build
+[3.315s] creating /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib
+[3.315s] creating /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze
+[3.315s] copying robot_maze/__init__.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze
+[3.315s] copying robot_maze/solve_maze_client.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze
+[3.316s] copying robot_maze/movement_yaw_action_server.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze
+[3.316s] copying robot_maze/movement_x_action_server.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze
+[3.316s] running install
+[3.338s] running install_lib
+[3.394s] creating /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze
+[3.394s] copying /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze/__init__.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze
+[3.395s] copying /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze/solve_maze_client.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze
+[3.396s] copying /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze/movement_yaw_action_server.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze
+[3.396s] copying /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build/lib/robot_maze/movement_x_action_server.py -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze
+[3.396s] byte-compiling /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze/__init__.py to __init__.cpython-312.pyc
+[3.397s] byte-compiling /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze/solve_maze_client.py to solve_maze_client.cpython-312.pyc
+[3.397s] byte-compiling /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze/movement_yaw_action_server.py to movement_yaw_action_server.cpython-312.pyc
+[3.398s] byte-compiling /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze/movement_x_action_server.py to movement_x_action_server.cpython-312.pyc
+[3.399s] running install_data
+[3.399s] creating /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/share/ament_index
+[3.399s] creating /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/share/ament_index/resource_index
+[3.400s] creating /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/share/ament_index/resource_index/packages
+[3.400s] copying resource/robot_maze -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/share/ament_index/resource_index/packages
+[3.400s] copying package.xml -> /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/share/robot_maze
+[3.401s] running install_egg_info
+[3.461s] Copying ../../build/robot_maze/robot_maze.egg-info to /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages/robot_maze-0.0.0-py3.12.egg-info
+[3.463s] running install_scripts
+[3.853s] Installing movement_x_server script to /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/robot_maze
+[3.854s] writing list of installed files to '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/install.log'
+[3.912s] Invoked command in '/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/src/robot_maze' returned '0': AMENT_PREFIX_PATH=/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/robot_maze/lib/python3.12/site-packages:/home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/install/maze_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_maze build --build-base /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/build install --record /home/julian/Task-1-Intro-to-Gazebo-actions-services/maze_roboot/build/robot_maze/install.log --install-scripts $base/lib/robot_maze --single-version-externally-managed install_data

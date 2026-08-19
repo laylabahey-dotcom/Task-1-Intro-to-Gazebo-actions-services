@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from maze_interfaces/action/MovementX.action
+// generated code does not contain a copyright notice
+
+
+module maze_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct MovementX_Goal {
+      float target_x;
+
+      float linear_speed;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct MovementX_Result {
+      boolean success;
+
+      string message;
+
+      float final_distance_traveled;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct MovementX_Feedback {
+      float distance_traveled;
+
+      float distance_remaining;
+    };
+  };
+};
